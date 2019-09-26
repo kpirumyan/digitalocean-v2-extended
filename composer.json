@@ -1,0 +1,12 @@
+{
+  "name": "kpirumyan/digitalocean-v2-extended",
+  "require": {
+    "toin0u/digitalocean-v2": "^2.2"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/kpirumyan/digitalocean-v2-extended"
+    }
+  ]
+}
