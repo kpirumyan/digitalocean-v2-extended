@@ -1,12 +1,31 @@
 {
-  "name": "kpirumyan/digitalocean-v2-extended",
-  "require": {
-    "toin0u/digitalocean-v2": "^2.2"
-  },
-  "repositories": [
+  "name"       : "kpirumyan/digitalocean-v2-extended",
+  "type"       : "library",
+  "description": "DigitalOcean API v2 PHP 5.4+ library (extended)",
+  "keywords"   : ["DigitalOcean", "API", "Cloud Hosting", "SSD", "VPS"],
+  "homepage"   : "https://github.com/kpirumyan/digitalocean-v2-extended",
+  "license"    : "MIT",
+
+  "authors": [
     {
-      "type": "vcs",
-      "url": "https://github.com/kpirumyan/digitalocean-v2-extended"
+      "name"    : "Karen Pirumyan",
+      "email"   : "pir-karen@yandex.ru",
+      "role"    : "Developer"
     }
-  ]
+  ],
+
+  "require": {
+    "php": ">=5.4.0",
+    "toin0u/digitalocean-v2": "^2.3"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "DigitalOceanV2Extended\\": "src/"
+    }
+  },
+
+  "config": {
+    "preferred-install": "dist"
+  }
 }
